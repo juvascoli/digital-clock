@@ -51,8 +51,12 @@ body{
     .reloj{
         flex-direction: column;
         box-shadow: 15px rgba(0, 0, 0, .7);
-        width: auto;
-        height: auto;
+        width: auto;  
+        height: auto; 
+        padding: 20px;   
+        gap: 20px 
+    
+
     }
 
     
