@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+    font-weight: 700px;
+    background: linear-gradient(120deg, #080807d8, #2a2626da);
+}
+
+.reloj{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    box-shadow: 2px 8px 10px rgba(233, 164, 4, 0.945);
+}
+
+
+.reloj div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 150px;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+
+}
+
+
+.number{
+    font-size: 60px;
+
+}
+
+@media (max-width: 586px) {
+
+    .reloj{
+        flex-direction: column;
+        box-shadow: 15px rgba(0, 0, 0, .7);
+        width: auto;
+        height: auto;
+    }
+
+    
+}
